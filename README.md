@@ -1,3 +1,8 @@
+# Netflix cloning in 3 hrs
+
+this project got help from [here](https://www.youtube.com/watch?v=-cMqr9HpZ-Y).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
