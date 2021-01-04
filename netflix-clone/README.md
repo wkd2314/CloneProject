@@ -2,6 +2,7 @@
 
 this project got help from [here](https://www.youtube.com/watch?v=-cMqr9HpZ-Y).
 
+comeplete project [here](https://netflix-clone-fc714.web.app/).
 
 # Getting Started with Create React App
 
