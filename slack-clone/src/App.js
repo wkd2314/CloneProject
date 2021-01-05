@@ -19,7 +19,9 @@ function App() {
           <Login />
         ) : (
           <>
-            {/* if no empty div > error */}
+            {/* <> is shortened <React.Fragment> 
+            this lets you return the list of children 
+            without adding extra tags to DOM */}
             <Header />
             <div className="app__body">
               <Sidebar />
