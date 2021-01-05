@@ -27,7 +27,7 @@ function Chat() {
       .onSnapshot((snapshot) =>
         setRoomMessages(snapshot.docs.map((doc) => doc.data()))
       );
-  }, [roomId]);
+  }, [roomId]); // used dependency as it is upper one from onSnapshot function
 
   console.log('MESSAGES >>> ', roomMessages);
   return (
