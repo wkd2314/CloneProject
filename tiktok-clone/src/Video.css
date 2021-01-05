@@ -1,0 +1,17 @@
+.video {
+  position: relative;
+  /* relative to its parent(app__video) */
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  /* works with scroll-snap-type: y mandatory in app__video */
+}
+
+.video__player {
+  background-color: red;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

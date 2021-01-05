@@ -1,0 +1,53 @@
+.videoFooter {
+  position: relative;
+  /* state this when its within the parent (nested stuff)
+    almost every time */
+  color: white;
+  bottom: 160px;
+  margin-left: 40px;
+  display: flex;
+}
+
+.videoFooter__text {
+  flex: 1;
+  /* display: flex 와 연동해서 생각하자 .. Ticker 자리주기 */
+}
+
+.videoFooter__text > h3 {
+  padding-bottom: 20px;
+}
+
+.videoFooter__text p {
+  padding-bottom: 20px;
+}
+
+.videoFooter__record {
+  animation: spinTheRecord infinite 5s linear;
+  height: 50px;
+  filter: invert(1); /* inverts color */
+  position: absolute;
+  bottom: 3px;
+  right: 20px;
+}
+
+.videoFooter__icon {
+  position: absolute;
+  /* this way the Ticker gets up to be in the same line 
+   couldn't use display: flex because Ticker seems to have some trouble */
+}
+
+.videoFooter__ticker > .ticker {
+  height: fit-content;
+  margin-left: 23px;
+  width: 60%;
+}
+
+@keyframes spinTheRecord {
+  /* can use '%' instead of from to for more details */
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
