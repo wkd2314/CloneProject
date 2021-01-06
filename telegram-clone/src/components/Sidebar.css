@@ -56,6 +56,10 @@
   border-top: 1px solid rgba(209, 88, 88, 0.178);
 }
 
+.sidebar__bottom::-webkit-scrollbar {
+  display: none;
+}
+
 .sidebar__bottom__avatar:hover {
   cursor: pointer;
   opacity: 0.5;

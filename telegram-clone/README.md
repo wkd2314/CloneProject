@@ -21,3 +21,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - arrow functions are not hoisted when regular functions do
 
 - unlike Regular functions, arrow function does not have their own "this" keyword.
+
+## objects in DOM can't be rendered directly ...
+
+for example `{new Date(messages[0]?.data.timestamp?.toDate()).toUTCString()}`
+the Date object can't be rendered in DOM so we use toUTCstring
+because string type can be rendered in DOM(HTML)
