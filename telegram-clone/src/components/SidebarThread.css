@@ -1,0 +1,30 @@
+.sidebarThread {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+.sidebarThread:hover {
+  background-color: rgb(29, 77, 93);
+}
+
+.sidebarThread__details {
+  margin-left: 15px;
+  /* difference between margin and padding 
+  inner space : margin , outer space: padding */
+  position: relative;
+  width: 100%;
+}
+
+.sidebarThread__timestamp {
+  position: absolute;
+  /* `relative` references its own static(default) position 
+   while `absolute` references position relative from parents
+   (if no then from body tag)
+   >> absolute doesnt get effected by nearby tags but by parent*/
+  top: 5px;
+  right: 0;
+}
