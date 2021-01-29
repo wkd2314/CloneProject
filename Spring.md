@@ -13,5 +13,5 @@
     - `home.welcome = HI!! {0}` 이런식으로 message properties 파일위에 정의한경우.
 
 ## link url expressions '@' (not override)
-- <a href="detail.html" th:href="@{/order/{orderId}/details(orderId=${o.id})}">view</a>
+- `<a href="detail.html" th:href="@{/order/{orderId}/details(orderId=${o.id})}">view</a>`
     - 링크 상세 표시
